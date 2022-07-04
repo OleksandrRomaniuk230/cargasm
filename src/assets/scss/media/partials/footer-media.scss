@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1200px) {
+    .footer {
+        padding-top: 26px;
+        &-top {
+            flex-direction: column;
+            gap: 30px;
+            &__wrapper {
+                display: none;
+            }
+        }
+        &__list {
+            &.media {
+                display: flex;
+                padding-bottom: 30px;
+                border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+            }
+        }
+        &-bottom {
+            border: none;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer {
+        &-logo {
+            display: none;
+        }
+        &-top {
+            gap: 17px;
+        }
+        &__list {
+            &_bottom {
+                margin: 16px 0px 28px 0px;
+            }
+        }
+        &__social {
+            &-list {
+                gap: 9px;
+            }
+        }
+        &-bottom {
+            padding: 2px 0px 30px 0px;
+        }
+        &__nav{display: block;}
+    }
+}

@@ -1,0 +1,85 @@
+.footer {
+    background: #242b33;
+    padding-top: 40px;
+    &-logo {
+        margin-bottom: 20px;
+    }
+&__nav{display: none;}
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 15px;
+        &_bottom {
+            margin: 32px 0px;
+        }
+        &.media {
+            display: none;
+            gap: 20px;
+            .footer {
+                &__item {
+                    a {
+                        text-transform: uppercase;
+                        border-left: 2px #e62128 solid;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    &__item a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__item,
+    &__item a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    &__social {
+        &-list {
+            display: flex;
+            gap: 5px;
+        }
+    }
+    &__about,
+    &__shop {
+        min-width: 140px;
+        &_top {
+            margin-bottom: 15px;
+
+            border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+        }
+    }
+    &-top {
+        display: flex;
+        gap: 175px;
+        margin-top: 4px;
+        &__wrapper {
+            display: flex;
+            gap: 55px;
+            ul {
+                gap: 14px;
+            }
+        }
+    }
+    &-bottom {
+        padding: 18px 0px;
+        margin-top: 28px;
+        border-top: 1px rgba(255, 255, 255, 0.1) solid;
+    }
+}

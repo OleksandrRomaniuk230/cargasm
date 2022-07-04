@@ -1,0 +1,84 @@
+.mx-calendar.mx-calendar-panel-date {
+    &:nth-child(2) {
+        display: none !important;
+    }
+}
+input {
+    &:focus-visible {
+        outline: none;
+    }
+}
+.data-time {
+    &__wrapper {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        .form-text {
+            width: 100%;
+        }
+        .v-select .dropdown-toggle {
+            width: 228px;
+        }
+        .vs__actions {
+            display: none;
+        }
+        svg {
+            position: absolute;
+            top: 11px;
+            right: 25px;
+            .active{
+                stroke:#999999 ;
+            }
+        }
+    }
+}
+.mx-icon-calendar {
+    display: none;
+}
+.datapicker {
+    &-icon {
+        position: absolute;
+        top: 5px;
+        right: -80px;
+    }
+    &-wrapper {
+        position: relative;
+        .mx-input {
+            width: 100% !important;
+        }
+        .mx-input {
+            &:focus {
+                svg {
+                    path {
+                        stroke: #999999;
+                    }
+                }
+            }
+        }
+    }
+}
+.mx-datepicker-main {
+    thead {
+        tr {
+            background: #f7f7f7;
+        }
+    }
+}
+.mx-icon-clear,
+.mx-icon-calendar {
+    display: none !important;
+}
+
+.timepicker-wrapper {
+    position: relative;
+    svg {
+        right: 11px;
+    }
+}
+.mx-datepicker-range {
+    width: 100%;
+}
+.mx-input {
+    height: 48px;
+    width: 228px;
+}

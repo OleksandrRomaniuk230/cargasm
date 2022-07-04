@@ -1,0 +1,49 @@
+.v-select .dropdown-toggle {
+    height: 50px;
+    padding: 3px;
+}
+.v-select .open-indicator:before {
+    border-color: #e62128;
+}
+.v-select .dropdown-toggle {
+    width: 360px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.v-select .dropdown-toggle .clear {
+    display: none;
+}
+.dropdown-menu {
+    .active {
+        background-color: #e62128;
+    }
+}
+.dropdown-menu > li > a:hover {
+    background: #e62128;
+}
+.v-select .dropdown-menu > .highlight > a {
+    background: #e62128 !important;
+}
+
+.mx-calendar-content .cell.active {
+    background: #e62128;
+    border-radius: 5px;
+}
+.mx-calendar-content .cell.in-range,
+.mx-calendar-content .cell.hover-in-range {
+    background: rgba(230, 33, 40, 0.1);
+}
+.mx-btn.mx-btn-text.mx-btn-icon-double-right,
+.mx-btn.mx-btn-text.mx-btn-icon-double-left {
+    display: none;
+}
+.dropdown.v-select.vue-select1.default__select.single.searchable {
+    width: max-content;
+}
+.dropdown-menu {max-width: 360px;}

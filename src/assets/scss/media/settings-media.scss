@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1200px) {
+    .settings {
+        &__wrapper {
+            justify-content: center;
+            gap: 0px;
+        }
+        &__photo {
+            &-add {
+                height: 219px;
+            }
+            &-wrapper {
+                gap: 8px;
+            }
+        }
+        &__subavtor {
+            &-wrapper {
+                gap: 16px;
+                flex-wrap: wrap;
+            }
+           
+        }
+        &__privety {
+            &-wrapper {
+                gap: 3px;
+            }
+        }
+        &__description {
+            &-button {
+                padding: 10px 11px;
+            }
+        }
+        &__img-wrapper img {
+            width: 160px;
+            height: 105px;
+        }
+        &__user {
+            &-wrapper {
+                gap: 19px;
+                input {
+                    max-width: 100%;
+                }
+            }
+        }
+        &__user-wrapper .v-select .dropdown-toggle {
+            max-width: 100%;
+        }
+        &__form {
+            &-buttons {
+                margin-top: 74px;
+               
+            }
+        }
+    }
+    .settings__images-wrapper .settings__photo-add {
+        width: 160px;
+        height: 105px;
+        svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

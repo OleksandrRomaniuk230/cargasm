@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1200px) {
+    .default {
+        &__navbar {
+            &-list {
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+        padding: auto 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+    .v-select .dropdown-toggle {
+        width: 100%;
+    }
+    .custom-radio {
+        height: 34px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container-sm,
+    .container {
+        max-width: 540px;
+        padding: 0px 21px 0px 15px;
+    }
+    .mx-input {
+        width: 100%;
+    }
+    .data-time__wrapper {
+        div {
+            width: 100%;
+        }
+    }
+    .data-time__wrapper .v-select .dropdown-toggle {
+        width: 100%;
+    }
+    .timepicker-wrapper svg {
+        right: 25px;
+    }
+    .dropdown.v-select.vue-select1.default__select.single.searchable {
+        width: 100%;
+    }
+    .custom-radio {
+        height: 50px;
+        label {
+            margin-bottom: 6px;
+        }
+    }
+    .form-group,
+    .dropdown.v-select {
+        width: 100%;
+    }
+    .default {
+        &__map {
+            &-btn {
+                display: none;
+                &_media {
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .swiper-container {
+        height: 284px;
+        img {
+            height: 211px;
+        }
+    }
+    .photo-add{&__file{ max-width: 320px ;}}
+}
