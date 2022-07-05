@@ -1,6 +1,5 @@
 @media only screen and (max-width: 1200px) {
     .swiper {
-      
     }
     .event {
         &__wrapper {
@@ -67,6 +66,18 @@
                     justify-content: center;
                 }
             }
+        }
+        &__swiper {
+            &-title {
+                font-size: 12px;
+                line-height: 15px;
+            }
+            &-footer {
+              //  bottom: 100px;
+            }
+        }
+        .swiper-wrapper {
+            height: auto;
         }
     }
 }
